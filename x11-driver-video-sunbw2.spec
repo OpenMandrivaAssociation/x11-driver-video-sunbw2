@@ -32,7 +32,10 @@ The X.org driver for sun bw2 Cards
 %prep
 %setup -q -n xf86-video-sunbw2-%{version}
 
+%patch1 -p1
+
 %build
+autoreconf -ifs
 %configure
 %make
 
