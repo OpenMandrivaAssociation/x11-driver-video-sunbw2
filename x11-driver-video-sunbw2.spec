@@ -14,7 +14,7 @@ BuildRequires: x11-util-macros >= 1.0.1
 Conflicts: xorg-x11-server < 7.0
 
 %description
-The X.org driver for sun bw2 Cards
+The X.org driver for sun bw2 Cards.
 
 %prep
 %setup -q -n xf86-video-sunbw2-%{version}
