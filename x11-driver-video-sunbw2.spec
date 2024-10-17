@@ -4,7 +4,7 @@ Version: 1.1.0
 Release: %mkrel 5
 Summary: X.org driver for sun bw2 Cards
 Group: System/X11
-URL: http://xorg.freedesktop.org
+URL: https://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-sunbw2-%{version}.tar.bz2
 License: MIT
 BuildRoot: %{_tmppath}/%{name}-root
